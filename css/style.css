@@ -1,0 +1,58 @@
+/* ********************** Header *********************** */
+/* section 1 */
+.header .section-1{
+  font-size: 13px;
+  padding: 13px 0;
+}
+/* section 2 */
+.header .section-2{
+  border-bottom: 1px solid var(--color-text-gray);
+  border-top: 1px solid var(--color-text-gray);
+}
+.header .section-2 .search input{
+  padding: 10px 15px ;
+  border: 1px solid #efeeee;
+  width: 83%;
+  position: relative;
+}
+.header .section-2 .search  i{
+  
+  position: absolute;
+  right: 99px;
+  top: 10px;
+}
+.header .section-2 .group-icon i{
+  margin-right: 15px;
+  color: #636363;
+}
+.header .section-2 .group-icon i:last-child{
+  margin-right: 0px;
+}
+.header .section-2 .group-icon span{
+  padding:1px 4px;
+  position: relative;
+  top: -8px;
+  left: -23px;
+}
+/* navbar */
+.navbar{width: fit-content;margin: auto;}
+.navbar .nav-item{
+  float: left;
+  margin-right: 26px;
+}
+.navbar .nav-item i{
+  font-size: 13px;
+}
+.navbar .nav-item:last-child{
+  float: left;
+  margin-right: 0px;
+}
+.navbar .nav-link{font-weight: bold;}
+.navbar .nav-link.active{
+  color: var(--color-red);
+}
+/* brandcamb */
+.brandcamb .item{float: left; margin-right: 10px;}
+.brandcamb .link.active{color: var(--color-red);}
+
+/****************** footer ****************/
