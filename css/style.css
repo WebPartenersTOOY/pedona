@@ -55,4 +55,39 @@
 .brandcamb .item{float: left; margin-right: 10px;}
 .brandcamb .link.active{color: var(--color-red);}
 
+/* product view control section*/
+.container > .product{
+  width: 65%;
+}
+ .sidebar{
+  width: 25%;
+}
+.view-type a.active{
+  color: var(--color-red);
+}
+.view-type a .px-1{
+  padding-right: 10px;
+}
+.sort-by{margin-left: 20%;}
+/* all products */
+.fa-star-o.active{
+color: var(--color-star);
+}
+.all-product img{
+  height: 300px;
+  width: 100%;
+
+}
+/* pagination */
+/* .pagination a.rounded{
+  border-radius: 12px;
+} */
+.filter-by-price #range{
+  height: 5px;
+  width: 80%;
+}
+/* top_related_product */
+.top-rated-product .product-img{
+height: 60px;
+}
 /****************** footer ****************/

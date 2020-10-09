@@ -2,9 +2,12 @@
   /* footer bg #222222 
   text footer #888888 */
   --color-bg-gray : #f6f6f6;
+  --light-gray-bg-color:#d3d3d3;
   --color-red : #d4202b;
   --color-text-gray : #cdcdcd ;
   --color-star : #ece0b6;
+  --border-color:rgb(105, 105, 105);
+  --gray-text-color:rgb(46, 44, 44);
 }
 /************************************* Frame Work ************************************/
 *{
@@ -21,13 +24,23 @@ ul{list-style: none;}
   width: 1170px;
   margin: 0 auto;
 }
-.bg{
+.gray-bg{
   background-color: var(--color-bg-gray);
+}
+.light-gray-bg{
+  background-color: var(--light-gray-bg-color);
+}
+.red-bg{
+  background-color: var(--color-red);
 }
 .text-white{color: #fff;}
 .text-gray{color:var(--color-text-gray)}
 .text-red{color:var(--color-red);}
 .star-color{color:var(--color-star);}
+.dark-gray-text-color{color:var(--gray-text-color);}
+
+.center-el{margin: 0 auto;}
+
 .column_1,.column_2,.column_3,.column_4,.column_5,.column_6,.column_7,
 .column_8,.column_9,.column_10,.column_11,.column_12{
   position: relative;
@@ -178,6 +191,8 @@ ul{list-style: none;}
 .clear-float{clear: both;}
 .float-left{float: left;}
 .float-right{float: right;}
+.clear-float-left{clear: left;}
+.clear-float-right{clear: right;}
 
 .display-n{display: none;}
 .display-b{display: block;}
@@ -186,6 +201,9 @@ ul{list-style: none;}
 
 .w-100{width: 100%;}
 
+.overline-text-decoration{text-decoration: overline;}
+.linethrough-text-decoration{text-decoration: line-through;}
+.underline-text-decoration{text-decoration: underline;}
 
 /********************************* Property Name ************************/
 .over-h{overflow: hidden;}
